@@ -1,10 +1,11 @@
+const path = require('path');
 const http = require('http');
 const express = require('express');
 const SocketIO = require('socket.io');
 
 const app = express();
 const server = http.createServer(app);
-const io = SocketIO.listen(server);
+const io = SocketIO(server);
 
 app.use(express.static(__dirname + '/public'));
 server.listen(3000, () => console.log('server on port 3000'));
