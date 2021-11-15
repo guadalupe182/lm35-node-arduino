@@ -1,17 +1,24 @@
 {
-  "name": "server",
+  "name": "lm35-arduino",
   "version": "1.0.0",
-  "description": "",
+  "description": "- https://github.com/firmata/arduino/issues/334 - https://heliosoph.wordpress.com/2012/03/21/connecting-an-arduino-with-a-lm35-temperature-sensor-special-issues/",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guadalupe182/lm35-node-arduino.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guadalupe182/lm35-node-arduino/issues"
+  },
+  "homepage": "https://github.com/guadalupe182/lm35-node-arduino#readme",
   "dependencies": {
-    "express": "^4.16.2",
-    "serialport": "^6.0.4",
-    "socket.io": "^2.0.4"
+    "express": "^4.17.1",
+    "serialport": "^9.2.5",
+    "socket.io": "^4.3.2",
+    "soket.io": "0.0.1-security"
   }
 }
